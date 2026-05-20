@@ -1,0 +1,8 @@
+prefix=/home/matthew-xie/tiaozhan_ws/5.13/ws2/devel
+
+Name: helloworld_py
+Description: Description of helloworld_py
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

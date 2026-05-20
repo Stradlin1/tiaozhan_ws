@@ -1,0 +1,8 @@
+prefix=/home/matthew-xie/tiaozhan_ws/5.13/ws1/devel
+
+Name: helloworld_cpp
+Description: Description of helloworld_cpp
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
