@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>turtlepy</name>
+  <version>0.0.1</version>
+  <description>ROS Noetic turtle motion control demo in Python.</description>
+
+  <maintainer email="matthew-xie@example.com">matthew-xie</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>turtlesim</exec_depend>
+
+  <export/>
+</package>

@@ -1,0 +1,8 @@
+prefix=/home/matthew-xie/tiaozhan_ws/5.27/turtlepy/devel
+
+Name: turtlepy
+Description: Description of turtlepy
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

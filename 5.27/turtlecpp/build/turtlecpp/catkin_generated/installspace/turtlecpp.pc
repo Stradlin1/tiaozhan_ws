@@ -1,0 +1,8 @@
+prefix=/home/matthew-xie/tiaozhan_ws/5.27/turtlecpp/install
+
+Name: turtlecpp
+Description: Description of turtlecpp
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

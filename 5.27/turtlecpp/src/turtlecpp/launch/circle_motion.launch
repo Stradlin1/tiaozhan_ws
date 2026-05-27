@@ -1,0 +1,8 @@
+<launch>
+  <node pkg="turtlesim" type="turtlesim_node" name="turtlesim" output="screen"/>
+  <node pkg="turtlecpp" type="circle_motion_node" name="circle_motion_controller" output="screen">
+    <param name="linear_speed" value="2.0"/>
+    <param name="angular_speed" value="2.0"/>
+    <param name="publish_rate" value="10.0"/>
+  </node>
+</launch>
