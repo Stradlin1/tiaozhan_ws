@@ -1,0 +1,2 @@
+pkg_robot
+-DCATKIN_DEVEL_PREFIX=/home/bcsh/wsrobot/devel -DCMAKE_INSTALL_PREFIX=/home/bcsh/wsrobot/install -G Unix Makefiles
