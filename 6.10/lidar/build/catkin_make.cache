@@ -1,0 +1,2 @@
+lidar_scan_listener
+-DCATKIN_DEVEL_PREFIX=/home/matthew-xie/tiaozhan_ws/6.10/lidar/devel -DCMAKE_INSTALL_PREFIX=/home/matthew-xie/tiaozhan_ws/6.10/lidar/install -G Unix Makefiles

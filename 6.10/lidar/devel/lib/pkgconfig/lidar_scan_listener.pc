@@ -1,0 +1,8 @@
+prefix=/home/matthew-xie/tiaozhan_ws/6.10/lidar/devel
+
+Name: lidar_scan_listener
+Description: Description of lidar_scan_listener
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
