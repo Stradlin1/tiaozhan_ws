@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="scan_topic" default="/scan" />
+  <arg name="cmd_topic" default="/cmd_vel" />
+  <arg name="safe_distance" default="0.8" />
+  <arg name="danger_distance" default="0.4" />
+  <arg name="front_half_angle_deg" default="30.0" />
+  <arg name="side_half_angle_deg" default="60.0" />
+  <arg name="forward_speed" default="0.15" />
+  <arg name="turn_speed" default="0.5" />
+  <arg name="back_speed" default="-0.1" />
+
+  <node pkg="avoidance" type="avoidance_node" name="avoidance" output="screen">
+    <param name="scan_topic" value="$(arg scan_topic)" />
+    <param name="cmd_topic" value="$(arg cmd_topic)" />
+    <param name="safe_distance" value="$(arg safe_distance)" />
+    <param name="danger_distance" value="$(arg danger_distance)" />
+    <param name="front_half_angle_deg" value="$(arg front_half_angle_deg)" />
+    <param name="side_half_angle_deg" value="$(arg side_half_angle_deg)" />
+    <param name="forward_speed" value="$(arg forward_speed)" />
+    <param name="turn_speed" value="$(arg turn_speed)" />
+    <param name="back_speed" value="$(arg back_speed)" />
+  </node>
+</launch>
